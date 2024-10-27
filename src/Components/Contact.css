@@ -1,0 +1,8 @@
+.contact-section p {
+    font-family: 'Georgia';
+    font-size: 20px;
+    color: #9c9d9f;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+  }

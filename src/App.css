@@ -1,0 +1,124 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* General styling for the header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #282c34;
+  color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Logo styling */
+.logo h1 {
+  font-family: 'Arial', sans-serif;
+  font-size: 24px;
+  color: #61dafb;
+  margin: 0;
+}
+
+/* Navigation links */
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+/* Hover effect on links */
+.nav-links a:hover {
+  color: #61dafb;
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+  .nav-links {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
+/* src/App.css */
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+}
+
+main {
+  padding: 20px;
+}
+
+h2 {
+  margin-top: 40px;
+}
+
+
+.section-title {
+  font-family: 'Bona Nova SC';
+  margin-top: 70px;
+  font-size: 40px;
+  text-decoration: underline;
+  margin-bottom: 20px;
+  color: #e8e8e8;
+}
+
+a {
+  margin-bottom: 20px;
+  font-size: 18px;
+  font-family: 'Georgia';
+  color: #9c9d9f;
+  text-decoration: none;
+}
+
+.App > * {
+  scroll-margin-top: 100px;
+}

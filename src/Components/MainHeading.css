@@ -1,0 +1,45 @@
+/* Main heading section styling */
+.main-heading {
+    text-align: center;
+    padding: 100px 20px;  
+    border-bottom: solid rgba(255,255,255,0.2) 2px;
+  }
+  
+  /* Main heading styling */
+  .main-heading h1 {
+    font-weight: 700;
+    font-size: 50px;
+    font-family: 'Bona Nova SC';
+    margin-bottom: 20px;
+    color: #4FD1C5;
+  }
+  
+  /* Subheading styling */
+  .main-heading p {
+    font-size: 24px;
+    font-family: 'Georgia', sans-serif;
+    color: #afafaf;
+  }
+  
+  /* Responsive heading size */
+
+  
+  .connect-button {
+    background-color: #4FD1C5;
+    color: #00011dd2;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-family: 'Georgia', sans-serif;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 7px;
+    margin-top: 20px;
+    text-decoration: none;
+  }
+  
+  /* Hover effect for the button */
+  .connect-button:hover {
+    background-color: #5894b9c3;
+  }
+  

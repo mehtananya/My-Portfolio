@@ -1,0 +1,25 @@
+/* src/Skills.css */
+.skills {
+    text-align: left;
+    margin-top: 20px;
+  }
+  
+  .skills h2 {
+    margin-bottom: 10px;
+  }
+  
+  .skills-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .skill-item {
+    background-color: #f1f1f1;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+    font-size: 14px;
+  } 
+
+  

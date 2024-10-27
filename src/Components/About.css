@@ -1,0 +1,43 @@
+
+  
+  /* About section styling */
+  .about-section {
+    margin-top: 50px;
+  }
+  
+  .about-section h2 {
+    font-family: 'Bona Nova SC';
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #e8e8e8;
+  }
+  
+  .about-section p {
+    font-family: 'Georgia';
+    font-size: 20px;
+    color: #9c9d9f;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+  }
+
+  /* src/App.css */
+.App {
+    text-align: center;
+  }
+  
+  .App-header {
+    background-color: #282c34;
+    padding: 20px;
+    color: white;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  h2 {
+    margin-top: 40px;
+  }
+  
+ 
